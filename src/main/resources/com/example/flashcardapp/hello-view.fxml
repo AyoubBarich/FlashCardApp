@@ -1,15 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="com.example.flashcardapp.HelloController">
-  <padding>
-    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-  </padding>
-  <Button onAction="#onHelloButtonClick" text="Hello!" />
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.flashcardapp.HelloController">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <AnchorPane prefHeight="65.0" prefWidth="200.0" style="-fx-background-color: #0F4AC6;" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane layoutX="274.0" layoutY="2.0" prefHeight="25.0" prefWidth="200.0" style="-fx-background-color: #4E7CBF;" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                  <HBox prefHeight="43.0" prefWidth="525.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0">
+                     <children>
 
-  <Label fx:id="welcomeText" />
-   <VBox prefHeight="200.0" prefWidth="100.0" />
-</VBox>
+                     </children></HBox>
+               </children>
+            </AnchorPane>
+         </top>
+         <left>
+            <AnchorPane prefHeight="362.0" prefWidth="176.0" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox layoutX="22.0" layoutY="51.0" prefHeight="362.0" prefWidth="176.0" style="-fx-background-color: #4E7CBF;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="53.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="176.0" text="Mathématique" textFill="BLACK">
+                           <font>
+                              <Font name="JetBrains Mono ExtraBold" size="18.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="176.0" text="Automate" textFill="BLACK">
+                           <font>
+                              <Font name="JetBrains Mono ExtraBold" size="18.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="176.0" text="Logique" textFill="BLACK">
+                           <font>
+                              <Font name="JetBrains Mono ExtraBold" size="18.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="176.0" text="Base" textFill="BLACK">
+                           <font>
+                              <Font name="JetBrains Mono ExtraBold" size="18.0" />
+                           </font>
+                        </Button>
+                     </children></VBox>
+               </children>
+            </AnchorPane>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>

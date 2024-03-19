@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.flashcardapp.Berger">
+   <children>
+      <Text layoutX="71.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Vous devez amener les trois loups et les trois poussins sur l'autre rive. Attention à bien respecter les règles suivantes :\n&quot; +                &quot;\n&quot; +                &quot;Le radeau ne peut accueillir plus de deux animaux.\n&quot; +                &quot;Vous ne pouvez déplacer le radeau s'il est vide.\n&quot; +                &quot;S'il y a plus de loups que de poussins sur une des rives, les loups mangeront les pauvres volatiles sans défense et il vous faudra recommencer depuis le début.\n&quot; +                &quot;Vous n'avez pas de limite de déplacement, mais il est possible de résoudre cette énigme en 11 déplacements.&quot;&quot;Vous devez amener les trois loups et les trois poussins sur l'autre rive. Attention à bien respecter les règles suivantes :\n&quot; +                &quot;\n&quot; +                &quot;Le radeau ne peut accueillir plus de deux animaux.\n&quot; +                &quot;Vous ne pouvez déplacer le radeau s'il est vide.\n&quot; +                &quot;S'il y a plus de loups que de poussins sur une des rives, les loups mangeront les pauvres volatiles sans défense et il vous faudra recommencer depuis le début.\n&quot; +                &quot;Vous n'avez pas de limite de déplacement, mais il est possible de résoudre cette énigme en 11 déplacements.&quot;" wrappingWidth="7577.919921875" />
+   </children>
+</AnchorPane>
